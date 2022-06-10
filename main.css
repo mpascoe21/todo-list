@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #1a181a;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  color: #f9f5f0ff;
+  padding: 20px;
+  justify-content: space-between;
+}
+.header__resetBtn {
+  color: #f9f5f0ff;
+  background-color: #ec695bff;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.greeting {
+  color: #f9f5f0ff;
+  padding-bottom: 20px;
+}
+
+.defaultText {
+  color: #5e555c;
+  font-family: "Roboto", sans-serif;
+}
+
+#introMessage {
+  padding-bottom: 20px;
+}
+
+.tasksInputForm {
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed #5e555c;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #2c292b;
+}
+.tasksInputForm #tasksInputField {
+  width: 90%;
+  background-color: transparent;
+  color: #5e555c;
+}
+.tasksInputForm__Btn {
+  background-color: #ec695bff;
+  color: #2c292b;
+  border-style: none;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.tasksInputForm #tasksInputField {
+  border-style: none;
+  background-color: transparent;
+}
+
+.tasksHeader {
+  padding-bottom: 20px;
+  color: #f9f5f0ff;
+}
+
+.tasksList__item {
+  display: flex;
+  align-items: center;
+  background-color: #2c292b;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+.tasksList #tasksListCheckbox {
+  background-color: transparent;
+  border: 1px solid #ec695bff;
+  border-radius: 5px;
+  height: 15px;
+}
+.tasksList__task {
+  background-color: transparent;
+  color: #f9f5f0ff;
+  padding-left: 20px;
+}
+
+#tasksCount {
+  padding-top: 20px;
+}

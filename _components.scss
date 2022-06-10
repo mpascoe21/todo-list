@@ -1,0 +1,102 @@
+.header{
+  display: flex;
+  color: $floral-white;
+  padding: 20px;
+  justify-content: space-between;
+
+  &__resetBtn {
+    color: $floral-white;
+    background-color: $bittersweet-pink;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 20px;
+  }
+}
+
+.main {
+  padding: 20px;
+}
+
+.greeting {
+  color: $floral-white;
+  padding-bottom: 20px;
+}
+
+.defaultText {
+  color: $heliotrope-gray;
+  font-family: $font-utility;
+}
+
+#introMessage {
+  padding-bottom: 20px;
+}
+
+.tasksInputForm {
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed $heliotrope-gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: $black-coffee;
+
+  #tasksInputField {
+    width: 90%;
+    background-color: transparent;
+    color: $heliotrope-gray;
+  }
+
+  &__Btn {
+    background-color: $bittersweet-pink;
+    color: $black-coffee;
+    border-style: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: $font-utility;
+  }
+
+  #tasksInputField {
+    border-style: none;
+    background-color: transparent;
+  }
+}
+
+.tasksHeader {
+  padding-bottom: 20px;
+  color: $floral-white;
+}
+ 
+.tasksList {
+  
+
+  &__item {
+    display: flex;
+    align-items: center;
+    background-color: $black-coffee;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+
+  }
+
+  #tasksListCheckbox {
+    background-color: transparent;
+    border: 1px solid $bittersweet-pink;
+    border-radius: 5px;
+    height: 15px;
+  }
+
+
+  &__task {
+    background-color: transparent;
+    color: $floral-white;
+    padding-left: 20px;    
+  } 
+}
+
+#tasksCount {  
+  padding-top: 20px;
+}
