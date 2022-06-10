@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTodos</title>
+    <link rel="stylesheet" href="main.css" />
+    <script async defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h3 class="header__title">MyTodos</h3>
+      <button class="header__resetBtn" type="reset">Reset</button>
+    </header>
+
+    <main class="main">
+      <h1 class="greeting">Welcome Back Maria!</h1>
+      <p id="introMessage" class="defaultText">
+        Let's enter the tasks we need to complete for this upcoming week. Just
+        use the input below to create a todo.
+      </p>
+
+      <form class="tasksInputForm">
+        <input
+          id="tasksInputField"
+          class="defaultText"
+          type="text"
+          placeholder="Add your task here..."
+        />
+        <button class="tasksInputForm__Btn" type="button">+</button>
+      </form>
+
+      <p class="tasksHeader">Tasks</p>
+
+      <div>
+        <ul class="tasksList"></ul>
+        <div id="tasksCount" class="defaultText"></div>
+      </div>
+    </main>
+  </body>
+</html>
