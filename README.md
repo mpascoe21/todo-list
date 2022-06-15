@@ -13,4 +13,6 @@ A Vanilla JavaScript project to create an interactive todo list.
 
 Based on [Figma](https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f) wireframe by Jake Wood.
 
+### 🌐 Check out the project [here](https://mpascoe21.github.io/todo-list/)
+
 <img src="2022-06-15%20(3).png" height="400"/>
