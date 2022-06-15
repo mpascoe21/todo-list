@@ -11,7 +11,7 @@ A Vanilla JavaScript project to create an interactive todo list.
   <li>Edit task</li>
 </ul>
 
-Based on [Figma](https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f) wireframe by Jake Wood.
+Based on [Figma](https://www.figma.com/file/B3qPtN1rHoj3JGPMjT77ns/Tech-Test---MyTodos?node-id=0%3A1) wireframe by Jake Wood.
 
 ### 🌐 Check out the project [here](https://mpascoe21.github.io/todo-list/)
 
